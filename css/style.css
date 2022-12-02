@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #F5F2F0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.image-box {
+    float: left;
+    width: 35%;
+    height: 100vh;
+    background-image: url(../images/pexels-rfstudio-3819572.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    z-index: -1;
+}
+
+.content {
+    float: right;
+    width: 65%;
+    height: 100vh;
+    padding: 30px 60px 0 40px;
+}
+nav .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-items a {
+    text-decoration: none;
+    color: dimgray;
+    font-size: 14px;
+}
+
+nav .nav-items a:hover {
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.logo-box img {
+    z-index: 1;
+    width: 100px;
+}
+
+.logo-box {
+    margin: 20px 0 0 60px;
+}
+
+.nav-items .line {
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 0;
+}
+
+.head {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.head h1 {
+    font-size: 100px;
+    line-height: 80px;
+    margin-right: 30px;
+}
+
+.head h1 span.heading-part-01 {
+    font-family: 'Londrina Outline', cursive;
+    font-weight: 100;
+}
+
+.head h1 span.heading-part-02 {
+    margin-left: 90px;
+}
+
+.head h3 {
+    font-size: 24px;
+    align-self: flex-end;
+    color:dimgrey;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    margin-right: 250px;
+}
+
+.head .social-media ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head .social-media ul li img {
+    width: 20px;
+}
+
+.head .social-media ul li img[alt="facebook"] {
+    width: 12px;
+}
+
+.head-button {
+    font-size: 16px;
+    padding: 15px 40px;
+    float: right;
+    background-color: black;
+    color: #F5F2F0;
+    margin: 30px 0;
+}
+
+.body {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-right-image {
+    height: 214px;
+    width: 400px;
+    margin-top: 12px;
+    background-image: url(../images/pexels-cottonbro-7974875.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.features div {
+    position: relative;
+}
+
+.features .circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: lightslategray;
+}
+
+.features .circle:hover {
+    background-color: black;
+}
+
+.features div .line {
+    height: 52px;
+    width: 0;
+    border-left: 1px solid lightslategray;
+    position: absolute;
+    top: 12px;
+    left: 4px;
+}
+
+.features .line-circle div {
+    display: inline-block;
+}
+
+.features .line-circle .text {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.features .line-circle {
+    color: lightslategray;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.features .line-circle:hover {
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.arrow {
+    position: relative;
+    transform: rotate(180deg);
+    margin-bottom: 100px;
+}
+
+.arrow .line {
+    height: 100px;
+    width: 0;
+    border-right: 1px solid black;
+}
+
+
+.arrow .arrow-left {
+    position: absolute;
+    top: 8px;
+    right: -4px;
+    width: 20px;
+    height: 0;
+    border-bottom: 1px solid black;
+    transform: rotate(-60deg);
+}
+
+.arrow .arrow-right {
+    position: absolute;
+    top: 8px;
+    right: -14px;
+    width: 20px;
+    height: 0;
+    border-bottom: 1px solid black;
+    transform: rotate(60deg);
+}
+
+.features-right img {
+    width: 35px;
+}
+
+.features-right p {
+    font-size: 14px;
+    font-weight: 600;
+}
